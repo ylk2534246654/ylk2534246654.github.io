@@ -71,7 +71,75 @@
     </div>
 </div></div>
     </div>
-    <div id="footer">骑士恨煎蛋，骑士恨孜然</div>
+	
+    <div id="footer">
+		<!--页脚-->
+<footer id="footer">
+  
+  <center class="outer">
+    <div>
+			<script>
+			function secondToDate(second) {
+			if (!second) {
+			return 0;
+			}
+			var time = new Array(0, 0, 0, 0, 0);
+			if (second >= 365 * 24 * 3600) {
+			time[0] = parseInt(second / (365 * 24 * 3600));
+			second %= 365 * 24 * 3600;
+			}
+			if (second >= 24 * 3600) {
+			time[1] = parseInt(second / (24 * 3600));
+			second %= 24 * 3600;
+			}
+			if (second >= 3600) {
+			time[2] = parseInt(second / 3600);
+			second %= 3600;
+			}
+			if (second >= 60) {
+			time[3] = parseInt(second / 60);
+			second %= 60;
+			}
+			if (second > 0) {
+			time[4] = second;
+			}
+			return time;
+			}
+			</script>
+			<script type="text/javascript" language="javascript">
+			function setTime() {
+			// 博客创建时间秒数，时间格式中，月比较特殊，是从 0 开始的，所以想要显示 5 月，得写 4 才行，如下
+			var create_time = Math.round(new Date(Date.UTC(2018, 6, 13, 14, 0, 0))
+			.getTime() / 1000);
+			// 当前时间秒数,增加时区的差异
+			var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+			currentTime = secondToDate((timestamp - create_time));
+			currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+			+ currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+			+ '秒';
+			document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+			}
+			setInterval(setTime, 1000);
+			</script>
+			
+			博客已静静的运行<span id="htmer_time" style="color: #258fb8"></span>
+			<span class="my-face">(●'◡'●)ﾉ♥</span>
+		</div>
+		托管于 <a href="https://github.com/" target="_blank">GitHub</a>. <a href="https://www.google.com/analytics/" target="_blank">Google Analytics</a> 提供网站统计服务. <a href="http://busuanzi.ibruce.info/" target="_blank">不蒜子</a> 提供网站计数服务.
+		<div>
+		&copy; 2018 雨夏.由 <a href="http://hexo.io/" target="_blank">Hexo</a> 强力驱动.
+		</div>
+		<div>
+		最后一次修改是在2019/4/3/21:04
+		</div>
+		<div>
+		<span id="busuanzi_container_site_uv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+		</div>
+  </center>
+  
+</footer>
+	</div>
+	
     <img id="top" src="/images/up-circle.svg" alt="top">
     
   </body>
