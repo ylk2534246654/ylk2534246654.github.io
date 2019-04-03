@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://diyyx.wang/"/>
   <updated>2019-04-03T07:13:17.054Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://diyyx.wang/</id>
   
   <author>
     <name>雨夏</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/04/03/hello-world/"/>
-    <id>http://yoursite.com/2019/04/03/hello-world/</id>
+    <link href="https://diyyx.wang/2019/04/03/hello-world/"/>
+    <id>https://diyyx.wang/2019/04/03/hello-world/</id>
     <published>2019-04-03T07:13:17.054Z</published>
     <updated>2019-04-03T07:13:17.054Z</updated>
     
