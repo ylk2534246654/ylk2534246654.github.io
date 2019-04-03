@@ -109,7 +109,12 @@
   
 </article>
 
-</section>
+
+<div>
+  {% if not is_index %}
+    {% include 'passage-end-tag.ejs' %}
+  {% endif %}
+</div></section>
         
           <aside id="sidebar">
   
