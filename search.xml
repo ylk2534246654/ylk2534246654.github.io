@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[MyACG搜索源]]></title>
-    <url>%2F2020%2F01%2F24%2FMyACG%E6%90%9C%E7%B4%A2%E6%BA%90%2F</url>
-    <content type="text"><![CDATA[作者：雨夏(开发者本人)数量: 7分类: 动漫1https://gitee.com/yx_myacg/ACGSourceRepository/raw/master/anime.json 作者：雨夏(开发者本人)数量: 7分类：漫画1https://gitee.com/yx_myacg/ACGSourceRepository/raw/master/comic.json 作者：雨夏(开发者本人)数量: 4分类：音乐1https://gitee.com/yx_myacg/ACGSourceRepository/raw/master/music.json 作者：雨夏(开发者本人)数量: 0分类：轻小说1(暂无资源)https://gitee.com/yx_myacg/ACGSourceRepository/raw/master/LightNovel.json 作者：雨夏(开发者本人)数量: 2分类：小说1https://gitee.com/yx_myacg/ACGSourceRepository/raw/master/book.json 作者：雨夏(开发者本人)数量: 2分类：视频（电视剧,电影，动漫）1https://gitee.com/yx_myacg/ACGSourceRepository/raw/master/video.json 使用方法: 打开MyACG，搜索界面，加入搜索源，填入链接以上搜索源会持续更新也欢迎各位一起制作]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[博客上线成功]]></title>
     <url>%2F2019%2F11%2F05%2F%E5%8D%9A%E5%AE%A2%E4%B8%8A%E7%BA%BF%E6%88%90%E5%8A%9F%2F</url>
     <content type="text"><![CDATA[上线后感想其实域名上个月就买好了，一直没用，昨天正好把NRS更新，今天一大早就着手操办起了博客，到下午两点左右，在尝试几次重装git和配置Hexo后总算将仓库上传到github,最后再解析到diyyx.wang，OK!虽然看起来过程很简单，但以前教程和现在的版本不同，难免面对各种问题。 接下来我会继续完善博客排版 为什么要建立自己的独立博客？有句话叫做“我的地盘听我的”，个人独立博客可以按照自己的想法任意设计、任意管理，安装一套博客程序即可使用，也不用再担心自己发布的文章随时面临被删甚至被关闭的危险，以致有的时候辛辛苦苦培养起来的博客说媒就没了，独立博客内容更具自主权，“我的博客我做主”。 搭建过程遇到的问题1.关于HEXO安装失败的解决办法12npm install -g cnpm --registry=https://registry.npm.taobao.orgcnpm install hexo-cli -g]]></content>
